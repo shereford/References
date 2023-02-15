@@ -1,0 +1,19 @@
+# Copy a local directory to a remote server:
+
+scp -r /local/dir username@server:/remote/dir
+
+# This command uploads a local file to a server under a new filename:
+
+scp file.txt username@server:/remote/dir/newfilename.txt
+
+# Copy Files Between Two Remote Servers
+
+scp user1@server1:/dir1/file.txt user2@server2:/dir2
+
+# This command deletes all empty files ending with .log:
+
+find . -type f -name "*.log" -exec rm {} \;
+
+# To delete all files older than 25 days, run this command:
+
+find . -type f -mtime +25 -exec rm {} \;
