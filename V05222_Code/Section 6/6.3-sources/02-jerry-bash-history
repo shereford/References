@@ -1,2 +1,0 @@
-salt-call event.send myco/myevent/foo
-salt-call event.send myco/myapp/deploy version=master

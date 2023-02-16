@@ -1,5 +1,0 @@
-reactor:
-  - 'myco/myevent/*':
-    - /srv/reactor/highstate.sls
-  - 'myco/myapp/deploy':
-    - /srv/reactor/deploy_myapp.sls
